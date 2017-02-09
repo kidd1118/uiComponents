@@ -65,7 +65,7 @@ if (!MenuManager)
 Menu = function (options) {
     var me = this;
     var opts = $.extend(true, {
-        className: "aui-ui-Menu",
+        className: ".menu",
         parent: null,
         data: null, //[{value: "", text: "", children: [{value: "", text: ""}, dom: null]}]
         width: "auto",
